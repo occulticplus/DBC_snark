@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\occul\Documents\WeChat Files\wxid_2icfxufd4vr522\FileStorage\File\2022-12\gpu-groth16-prover-3x - 副本" -B "C:\Users\occul\Documents\WeChat Files\wxid_2icfxufd4vr522\FileStorage\File\2022-12\gpu-groth16-prover-3x - 副本\cmake-build-debug"
+CMake Error at C:/Program Files/JetBrains/CLion 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCUDACompiler.cmake:180 (message):
+  Failed to find nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (enable_language)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/occul/Documents/WeChat Files/wxid_2icfxufd4vr522/FileStorage/File/2022-12/gpu-groth16-prover-3x - 副本/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/occul/Documents/WeChat Files/wxid_2icfxufd4vr522/FileStorage/File/2022-12/gpu-groth16-prover-3x - 副本/cmake-build-debug/CMakeFiles/CMakeError.log".
